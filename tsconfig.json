@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@tsconfig/node-lts-strictest-esm/tsconfig.json",
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "build",
+    "inlineSourceMap": true
+  },
+  "ts-node": {
+    "esm": true
+  }
+}
